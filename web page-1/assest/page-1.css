@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    height:500px;
+}
+
+nav{
+
+position: fixed;
+top: 0;
+z-index: 1;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+box-shadow: 0px 0px 1px rgb(43, 41, 41);
+height: 48px;
+
+}
+
+
+
+nav .items-1{
+
+    margin: 16px 80px 12px 240px;
+}
+
+
+.logo img{
+ 
+    margin-left:32px;
+    margin-top: 15px;
+    margin-bottom: 14px;
+    margin-right: 0px; 
+}
+
+
+
+nav .items-2{
+    margin: 12px 47px 12px 80px;
+}
+
+
+
+nav .items-2 a{
+    color: #282828;
+}
+
+
+
+nav .language{
+margin: 16px 28px 12px 0px; 
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+}
+
+
+.english{
+color: #FF8500;
+}
+
+
+a{
+    text-decoration: none;
+    margin: 10px 18px 12px 0;
+    color: #938C8C;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    }
+
+    
+/* 
+.items-1 ul{
+        list-style:  none ;
+        background:#000000;
+ }
+
+
+ul li{
+display: inline-block;
+position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: red;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+ul li ul .dropdown li{
+display: block;
+}
+
+
+ul li ul .dropdown{
+    width: 100%;
+    background: violet;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+background:yellowgreen;
+}
+
+
+
+
+ul li a:hover ul.dropdown{
+    display: block;
+} */
+
+
+.container{
+  
+ 
+    background-image: url(../../imag/background.jpg);
+    width: 100%;
+    height: 900px;
+}
+
+.findjob{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.findjob h1{
+
+margin-bottom: 18px;
+
+       
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+margin-top: 64px;
+color: #000000;
+        
+}
+
+
+.findjob .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    width:500px;
+    padding: 14px 3px 10px 3px;
+    margin: 18px 326px 22px 313px;
+}
+
+.findjob button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 162px;
+    height: 31px;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.search{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+
+
+
+.searchbar{
+   display: flex;
+   border-bottom-style: groove;
+ margin-top: 22px;
+ margin-bottom: 32px;
+}
+
+
+.searchbar input{
+    width: 560px;
+    height: 37px;
+    border: none;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+
+.searchbar .icon-one,.searchbar .icon-two{
+
+    margin: 10px 10px; 
+}
+
+.course{
+
+    justify-content: space-between;
+    display: flex;
+
+   
+}
+
+.course a{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+    color:  #938C8C;;
+}
+
+.course .all-posts{
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+color: #282828;
+border-bottom: 2px solid #FF8500;
+}
+
+
+
+
+
+
+
+
+.cards{
+    width: 100%;
+}
+
+.card  {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+margin-top: 33px;
+margin-bottom: 64px;
+margin-right: 60px;
+margin-left: 60px;
+
+}
+
+
+.first, .second, .thired{
+
+   
+    background-color: white;
+    width: 360px;
+    margin-top: 33px;
+    margin-bottom: 64px;
+    box-shadow: 0px 0px 3px #282828;
+    border-radius: 6px;
+    height: 350px;
+    overflow: hidden;
+    cursor: pointer;
+ 
+}
+
+
+.card h1{
+    margin: 18px 150px 32px 32px;
+}
+
+.img{
+
+display:flex;
+justify-content: space-between;
+align-items: end;
+}
+
+
+.img img{
+
+   
+    margin: 18px 0px 18px 32px;
+    border: none;
+    display: block;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+
+.img p {
+  
+color: #282828;
+margin: 26px 150px 22px 76px;
+position: absolute;
+   
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+}
+
+
+.card .info{
+
+    margin: 32px 40px 32px 32px;
+}
+
+
+.card .salary ,.card .age{
+
+    transform: translate(130px, -18px);
+}
+
+
+
+.card button {
+    width: 278px;
+    height: 37px;
+    border-radius: 5px;
+    color: white;
+    background: black;
+    border: none;
+    font-size: 17px;
+    margin: 32px 32px 18px 32px;
+    cursor: pointer;  
+}
+
+
+
+
+
+
+
+
+
+
+.footer{
+background-color:  #282828;
+height: 200px;
+}
+
+
+.all{
+
+    position: absolute;
+    margin: 32px 120px ;
+
+}
+
+ .start{
+
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+   
+
+}
+
+footer .contact h1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+    
+}
+
+footer .contact p{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+margin-top: 8px;
+}
+
+
+
+.end p{
+color: #FFFFFF;
+display: block;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+}
+
+
+.line{
+  
+    display: block;
+    border-bottom: 2px solid white;
+    width:800px;
+    margin-left: 400px ;
+}
+
+
+
+
+@media (min-width : 667px) and (max-width : 992px) {
+    .container.search .card {
+        display: none;
+    }
+}
