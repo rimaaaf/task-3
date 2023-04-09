@@ -129,7 +129,7 @@ ul li a:hover ul.dropdown{
 .container{
   
  
-    background-image: url(../../imag/background.jpg);
+    background-image: url(./imag/background.jpg);
     width: 100%;
     height: 900px;
 }
